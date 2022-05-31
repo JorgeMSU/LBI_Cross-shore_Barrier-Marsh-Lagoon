@@ -121,11 +121,11 @@ GIS File Info
 	GIS analysis area of interest covers the section of the barrier-backbarrier-lagoon system unaffected by tidal infleunces including 
 	regions adjacent to Barnegat Inlet and Little Egg Inlet. 
 	
-	Feature class: backbarrier_1840
+	Shapefile: backbarrier_1840
 			
 		Polygons representing 1840 barrier coverage area across field site. 
 
-	Feature class: backbarrier_marsh_1840
+	Shapefile: backbarrier_marsh_1840
 			
 		Polygons representing 1840 backbarrier marsh coverage area across field site. Backbarrier marsh defined as marsh region 
 		connected to the barrier. 
@@ -134,20 +134,20 @@ GIS File Info
 		development and therefore distort the calculation of the backbarrier marsh-lagoon boundary change during phase I. Beach Haven was the first significant 
 		settlement at LBI that resulted in significant marsh loss due to development during the last stage of phase I. 
 
-	Feature class: lagoon_1840
+	Shapefile: lagoon_1840
 			
 		Polygons representing 1840 lagoon coverage area across field site. Small islands within lagoon environment are defined
 		as lagoon area. 
 
-	Feature class: inland_marsh_1840
+	Shapefile: inland_marsh_1840
 	
 		Polygons representing 1840 inland marsh coverage area across field site. 
 
-	Feature class: barrier_1879
+	Shapefile: barrier_1879
 			
 		Polygons representing 1879 barrier coverage area across field site. 
 
-	Feature class: backbarrier_marsh_1879
+	Shapefile: backbarrier_marsh_1879
 			
 		Polygons representing 1879 backbarrier marsh coverage area across field site. Backbarrier marsh defined as marsh region 
 		connected to the barrier. 
@@ -156,68 +156,65 @@ GIS File Info
 		development and therefore distort the calculation of the backbarrier marsh-lagoon boundary change during phase I. Beach Haven was the first significant 
 		settlement at LBI that resulted in significant marsh loss due to development during the last stage of phase I. 
 
-	Feature class: lagoon_1879
+	Shapefile: lagoon_1879
 			
 		Polygons representing 1879 lagoon coverage area across field site. Small islands within lagoon environment are defined
 		as lagoon area. 
 
-	Feature class: inland_marsh_1879
+	Shapefile: inland_marsh_1879
 	
 		Polygons representing 1840 inland marsh coverage area across field site. 	
 
 		Historic map and GIS polygon discrepancy: Ponds within 1879 inland marsh area are counted as marsh (instead of lagoon) to align with the lower
 		resolution 1840 maps, where ponds are not distinguished from marsh. 
 
-	Feature class: barrier_1934	
+	Shapefile: barrier_1934	
 			
 		Polygons representing 1934 barrier coverage area across field site. 
 
-	Feature class: backbarrier_marsh_1934
+	Shapefile: backbarrier_marsh_1934
 			
 		Polygons representing 1934 backbarrier marsh coverage area across field site. Backbarrier marsh defined as marsh region 
 		connected to the barrier. 
 
 		Historic map and GIS polygon discrepancy: marsh region near Beach Haven, NJ removed from analysis to prevent marsh loss due to 
 		development and therefore distort the calculation of the backbarrier marsh-lagoon boundary change during phase I. Beach Haven was the first significant 
-		settlement at LBI that resulted in significant marsh loss due to development during the last stage of phase I. 
-
-
-	Feature class: lagoon_1934
+		settlement at LBI that resulted in significant marsh loss due to development during the last stage of phase I. : lagoon_1934
 			
 		Polygons representing 1934 lagoon coverage area across field site. Small islands within lagoon environment are defined
 		as lagoon area. 
 
-	Feature class: inland_marsh_1934
+	Shapefile: inland_marsh_1934
 	
 		Polygons representing 1840 inland marsh coverage area across field site. 	
 
-	Feature class: barrier_2022
+	Shapefile: barrier_2022
 			
 		Polygons representing 2022 barrier coverage area across field site. 
 
-	Feature class: backbarrier_marsh_2022
+	Shapefile: backbarrier_marsh_2022
 			
 		Polygons representing 2022 backbarrier marsh coverage area across field site. Backbarrier marsh defined as marsh region 
 		connected to the barrier. 
 
-	Feature class: lagoon_2022
+	Shapefile: lagoon_2022
 			
 		Polygons representing 2022 lagoon coverage area across field site. Small islands within lagoon environment are defined
 		as lagoon area. 
 
-	Feature class: inland_marsh_2022
+	Shapefile: inland_marsh_2022
 	
 		Polygons representing 2022 inland marsh coverage area across field site. 	
 
-	Feature classes: Shoreline_1840, Shoreline_1879, Shoreline_1934, Shoreline_2022
+	Shapefile: Shoreline_1840, Shoreline_1879, Shoreline_1934, Shoreline_2022
 	
 		Lines defined by the eastern edge of the barrier representing that year's ocean shoreline.
 
-	Feature class: os_polygon_closing_lines 
+	Shapefile: os_polygon_closing_lines 
 	
 		Lines added to form polygons between ocean shorelines of consecutive years.  
 
-	Feature classes: os_1840_to_1879_change, os_1879_to_1934_change, os_1934-to_2022_change 
+	Shapefile: os_1840_to_1879_change, os_1879_to_1934_change, os_1934-to_2022_change 
 		
 		Polygons representing landward and seaward ocean shoreline movement, bound by the associated year's shorelines and the 
 		ocean shoreline polygon closing lines ("os_polygon_closing_lines). 
